@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA11C1F314E457B2004FEEBB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA11C1F214E457B2004FEEBB /* CoreLocation.framework */; };
+		DA69964614E44102006F7951 /* MKMapView+PreciseSetRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = DA69964514E44102006F7951 /* MKMapView+PreciseSetRegion.m */; };
+		DA79903714E30963009FA2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA79903614E30963009FA2F3 /* UIKit.framework */; };
+		DA79903914E30963009FA2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA79903814E30963009FA2F3 /* Foundation.framework */; };
+		DA79903B14E30963009FA2F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA79903A14E30963009FA2F3 /* CoreGraphics.framework */; };
+		DA79904114E30963009FA2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA79903F14E30963009FA2F3 /* InfoPlist.strings */; };
+		DA79904314E30963009FA2F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79904214E30963009FA2F3 /* main.m */; };
+		DA79904714E30963009FA2F3 /* PHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79904614E30963009FA2F3 /* PHAppDelegate.m */; };
+		DA79904A14E30963009FA2F3 /* PHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA79904914E30963009FA2F3 /* PHViewController.m */; };
+		DA79904D14E30963009FA2F3 /* PHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA79904B14E30963009FA2F3 /* PHViewController.xib */; };
+		DA79907114E37341009FA2F3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA79907014E37341009FA2F3 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA11C1F214E457B2004FEEBB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DA69964414E44102006F7951 /* MKMapView+PreciseSetRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+PreciseSetRegion.h"; path = "../MKMapView+PreciseSetRegion.h"; sourceTree = "<group>"; };
+		DA69964514E44102006F7951 /* MKMapView+PreciseSetRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+PreciseSetRegion.m"; path = "../MKMapView+PreciseSetRegion.m"; sourceTree = "<group>"; };
+		DA79903214E30963009FA2F3 /* PreciseSetRegionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreciseSetRegionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA79903614E30963009FA2F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA79903814E30963009FA2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA79903A14E30963009FA2F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA79903E14E30963009FA2F3 /* PreciseSetRegionTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreciseSetRegionTest-Info.plist"; sourceTree = "<group>"; };
+		DA79904014E30963009FA2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA79904214E30963009FA2F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA79904414E30963009FA2F3 /* PreciseSetRegionTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreciseSetRegionTest-Prefix.pch"; sourceTree = "<group>"; };
+		DA79904514E30963009FA2F3 /* PHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHAppDelegate.h; sourceTree = "<group>"; };
+		DA79904614E30963009FA2F3 /* PHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHAppDelegate.m; sourceTree = "<group>"; };
+		DA79904814E30963009FA2F3 /* PHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHViewController.h; sourceTree = "<group>"; };
+		DA79904914E30963009FA2F3 /* PHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHViewController.m; sourceTree = "<group>"; };
+		DA79904C14E30963009FA2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PHViewController.xib; sourceTree = "<group>"; };
+		DA79907014E37341009FA2F3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA79902F14E30963009FA2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA79903714E30963009FA2F3 /* UIKit.framework in Frameworks */,
+				DA79903914E30963009FA2F3 /* Foundation.framework in Frameworks */,
+				DA79903B14E30963009FA2F3 /* CoreGraphics.framework in Frameworks */,
+				DA79907114E37341009FA2F3 /* MapKit.framework in Frameworks */,
+				DA11C1F314E457B2004FEEBB /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA79902714E30963009FA2F3 = {
+			isa = PBXGroup;
+			children = (
+				DA11C1F214E457B2004FEEBB /* CoreLocation.framework */,
+				DA69964414E44102006F7951 /* MKMapView+PreciseSetRegion.h */,
+				DA69964514E44102006F7951 /* MKMapView+PreciseSetRegion.m */,
+				DA79903C14E30963009FA2F3 /* PreciseSetRegionTest */,
+				DA79903514E30963009FA2F3 /* Frameworks */,
+				DA79903314E30963009FA2F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA79903314E30963009FA2F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA79903214E30963009FA2F3 /* PreciseSetRegionTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA79903514E30963009FA2F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA79907014E37341009FA2F3 /* MapKit.framework */,
+				DA79903614E30963009FA2F3 /* UIKit.framework */,
+				DA79903814E30963009FA2F3 /* Foundation.framework */,
+				DA79903A14E30963009FA2F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA79903C14E30963009FA2F3 /* PreciseSetRegionTest */ = {
+			isa = PBXGroup;
+			children = (
+				DA79904514E30963009FA2F3 /* PHAppDelegate.h */,
+				DA79904614E30963009FA2F3 /* PHAppDelegate.m */,
+				DA79904814E30963009FA2F3 /* PHViewController.h */,
+				DA79904914E30963009FA2F3 /* PHViewController.m */,
+				DA79904B14E30963009FA2F3 /* PHViewController.xib */,
+				DA79903D14E30963009FA2F3 /* Supporting Files */,
+			);
+			path = PreciseSetRegionTest;
+			sourceTree = "<group>";
+		};
+		DA79903D14E30963009FA2F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA79903E14E30963009FA2F3 /* PreciseSetRegionTest-Info.plist */,
+				DA79903F14E30963009FA2F3 /* InfoPlist.strings */,
+				DA79904214E30963009FA2F3 /* main.m */,
+				DA79904414E30963009FA2F3 /* PreciseSetRegionTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA79903114E30963009FA2F3 /* PreciseSetRegionTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA79905014E30963009FA2F3 /* Build configuration list for PBXNativeTarget "PreciseSetRegionTest" */;
+			buildPhases = (
+				DA79902E14E30963009FA2F3 /* Sources */,
+				DA79902F14E30963009FA2F3 /* Frameworks */,
+				DA79903014E30963009FA2F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreciseSetRegionTest;
+			productName = PreciseSetRegionTest;
+			productReference = DA79903214E30963009FA2F3 /* PreciseSetRegionTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA79902914E30963009FA2F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = paulpholden;
+			};
+			buildConfigurationList = DA79902C14E30963009FA2F3 /* Build configuration list for PBXProject "PreciseSetRegionTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA79902714E30963009FA2F3;
+			productRefGroup = DA79903314E30963009FA2F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA79903114E30963009FA2F3 /* PreciseSetRegionTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA79903014E30963009FA2F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA79904114E30963009FA2F3 /* InfoPlist.strings in Resources */,
+				DA79904D14E30963009FA2F3 /* PHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA79902E14E30963009FA2F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA79904314E30963009FA2F3 /* main.m in Sources */,
+				DA79904714E30963009FA2F3 /* PHAppDelegate.m in Sources */,
+				DA79904A14E30963009FA2F3 /* PHViewController.m in Sources */,
+				DA69964614E44102006F7951 /* MKMapView+PreciseSetRegion.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA79903F14E30963009FA2F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA79904014E30963009FA2F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DA79904B14E30963009FA2F3 /* PHViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA79904C14E30963009FA2F3 /* en */,
+			);
+			name = PHViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA79904E14E30963009FA2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA79904F14E30963009FA2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA79905114E30963009FA2F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreciseSetRegionTest/PreciseSetRegionTest-Prefix.pch";
+				INFOPLIST_FILE = "PreciseSetRegionTest/PreciseSetRegionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA79905214E30963009FA2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreciseSetRegionTest/PreciseSetRegionTest-Prefix.pch";
+				INFOPLIST_FILE = "PreciseSetRegionTest/PreciseSetRegionTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA79902C14E30963009FA2F3 /* Build configuration list for PBXProject "PreciseSetRegionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA79904E14E30963009FA2F3 /* Debug */,
+				DA79904F14E30963009FA2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA79905014E30963009FA2F3 /* Build configuration list for PBXNativeTarget "PreciseSetRegionTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA79905114E30963009FA2F3 /* Debug */,
+				DA79905214E30963009FA2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA79902914E30963009FA2F3 /* Project object */;
+}
